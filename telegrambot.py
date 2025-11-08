@@ -9,11 +9,8 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-#BOT_TOKEN = os.getenv('BOT_TOKEN')
-#TARGET_CHAT_ID = os.getenv('TARGET_CHAT_ID')
-BOT_TOKEN = '8086772851:AAFVr1EA0Au91Heps9lIth76zXCn5Uh6Adw'
-TARGET_CHAT_ID = int("5068404869")
-
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+TARGET_CHAT_ID = os.getenv('TARGET_CHAT_ID')
 
 class ForwardBot:
     def __init__(self):
@@ -102,3 +99,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
